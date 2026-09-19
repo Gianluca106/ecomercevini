@@ -1,0 +1,13 @@
+# Dependencies (vengono reinstallate con "npm install", non vanno caricate)
+node_modules/
+
+# Environment variables — contengono credenziali (Mongo, JWT, ecc.), NON caricare
+.env
+*.env
+!*.env.example
+
+# Build di produzione del frontend
+frontend/build/
+
+# File di sistema
+.DS_Store
